@@ -11,6 +11,7 @@ BlocklyCodingGame.MessageType = {
 	FINISH: 7,
 	STEPS: 8,
 	GAMESTATE:9,
+	DEBUG:100,
 	_: function(code){
 		return this["_"+code];
 	}
